@@ -3,5 +3,5 @@
 ---
 
 [[College/Sem IV/Content/GCS Timeline\|GCS Timeline]]
-[[GCS Impact\|GCS Impact]]
-[[GCS Observations\|GCS Observations]]
+[[College/Sem IV/Content/GCS Impact\|GCS Impact]]
+[[College/Sem IV/Content/GCS Observations\|GCS Observations]]
