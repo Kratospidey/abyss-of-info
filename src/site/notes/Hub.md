@@ -4,6 +4,6 @@
 
 A note to link major essential notes together
 
-[[Javascript MOC\|Javascript MOC]]
+[[JavaScript MOC\|JavaScript MOC]]
 
 [[Sem - IV Courses\|Sem - IV Courses]]
