@@ -39,7 +39,7 @@ int main()
 
     cin >> size;
 
-    _// creating a dynamically allocated array as the array needs to expand and using vector isn't an option_
+    // creating a dynamically allocated array as the array needs to expand and using vector isn't an option_
 
     int *array = new int[size];
 
