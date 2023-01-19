@@ -38,7 +38,7 @@ public:
 
     int top;
 
-    char a[MAX];
+    int a[MAX];
 
 public:
 
@@ -62,7 +62,7 @@ public:
 
     {
 
-        return top > MAX - 1;
+        return top == MAX - 1;
 
     }
 
