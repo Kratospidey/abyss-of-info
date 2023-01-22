@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/content/gcs-water-impact/"}
 ---
 
+### Water Impact:
+
 Cyanide compounds are found in various forms such as hydrogen cyanide, cyanide ion, and metal cyanides, and their environmental fate varies widely. The main chemical processes that cause loss of simple cyanides in aquatic media are oxidation, hydrolysis, and photolysis. Oxidation can convert certain cyanides into isocyanates, which can then be hydrolyzed to ammonia and carbon dioxide. However, the significance of this process in natural waters is not yet known. This process may be affected by different factors such as the presence of strong oxidizing agents, the pH level and temperature of the water, and the concentration of other elements and compounds in the water.
 
 Hydrogen cyanide and cyanide ion exist in equilibrium with their relative concentrations depending on pH and temperature. At pH levels below 8, over 93% of the free cyanide in water will exist as undissociated hydrogen cyanide. The chemical hydrolysis of hydrogen cyanide can form formamide, which is subsequently hydrolyzed to ammonium and formate ions. However, the relatively slow rates of hydrolysis reported for hydrogen cyanide in acidic solution and of cyanides under alkaline conditions indicate that hydrolysis is not competitive with volatilization and biodegradation for removing free cyanide from ambient waters. This means that other processes such as volatilization and biodegradation may be more effective in removing free cyanide from water, especially in natural environments.
