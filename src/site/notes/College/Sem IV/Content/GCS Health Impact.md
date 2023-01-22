@@ -3,4 +3,4 @@
 ---
 
 [[College/Sem IV/Content/GCS Human Impact\|GCS Human Impact]]
-[[College/Sem IV/Content/GCS Long Term Effect\|GCS Long Term Effect]]
+[[GCS Health Impacts of Mining in Ghana\|GCS Health Impacts of Mining in Ghana]]
