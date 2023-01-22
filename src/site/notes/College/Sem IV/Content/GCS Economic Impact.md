@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/content/gcs-economic-impact/"}
 ---
 
+### Economic Impact
 
 The 2001 cyanide spill in Tarkwa, Ghana had significant economic impacts on the local community. The spill occurred at the Tarkwa mine, which is operated by Gold Fields Ghana Limited, a subsidiary of South Africa-based Gold Fields Limited.
 
