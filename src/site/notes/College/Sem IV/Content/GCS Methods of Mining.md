@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/content/gcs-methods-of-mining/"}
 ---
 
+# Methods of Mining
 
 ## Surface Mining
 Surface mining is a method of mining in which the surface of the land is excavated to extract valuable minerals or other geological materials. This method typically involves the use of large equipment and machinery to remove the overburden (the soil and rock covering the desired materials) and extract the desired materials from the surface. Types of surface mining include open-pit mining, strip mining, and mountaintop removal mining.
