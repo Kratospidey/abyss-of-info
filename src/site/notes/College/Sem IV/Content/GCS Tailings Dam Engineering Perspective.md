@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/content/gcs-tailings-dam-engineering-perspective/"}
 ---
 
-[[TSF_Risk_Assesment.pdf]]
 
 Tailings are the waste resulting from the extraction of minerals and metals. Tailings can be disposed in various ways but the most common practice is to deposit them as slurry in impoundments behind dams. This form of tailings storage facility is the focus of this paper, and the term TSF is used hereafter to refer to tailings dams.
 
