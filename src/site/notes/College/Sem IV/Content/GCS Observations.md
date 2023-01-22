@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/content/gcs-observations/"}
 ---
 
+# Observations 
+
 The accident at GFGL exposed the fact that there was little public awareness in the local population of the environmental and safety risks that could occur at mining sites. Some settlers did not recognise that distressed fish in streams into which effluents are discharged could signal pollution; therefore, some distressed fish caught were unfortunately used for food. Poor access roads to the communities also prevented the timely flow of vital information. 
 
 The leakage of the cyanide solution into the environment at GFGL was a result of an unauthorised construction of a culvert and the bridging of the protective embankment of the containment area with agglomerated ore to enable conveyor repair work. This could have been prevented if regulatory authorities had been more critical in their inspections, since the culvert in question had been in existence for several months before the spill.
