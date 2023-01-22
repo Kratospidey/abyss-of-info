@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/content/gcs-social-impact/"}
 ---
 
+### Social Impact
 
 The 2001 cyanide spill in Tarkwa, Ghana had significant social impacts on the local community. The spill resulted in the release of an estimated 3,000 cubic meters of cyanide-contaminated water into the local environment, which affected nearby water sources used by local residents for drinking, irrigation, and other purposes. This caused a significant disruption to the livelihoods of local farmers and fishermen, as well as other members of the community who rely on these resources.
 
