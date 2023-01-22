@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/content/gcs-impact-of-cyanide-spill-at-gfgl/"}
 ---
 
+# Impact of the Cyanide Spill
+
 Company personnel found a total of approximately 50 dead fish of lengths between 50 and 100 mm within 200 m of the site of the leakage and detoxification. Some villagers were reported to have caught distressed fish, which they used for food. 
 
 The main complaints from the communities where people had eaten distressed fish, or had used the polluted water for bathing, drinking and preparing of food, included diarrhoea, abdominal pains, blurred vision, eye itchiness, skin rashes, skin itchiness, skin blisters, skin peeling, bloody urine and burning sensation in the legs. These complaints were alleged to have started at the time of the spillage and persisted among most communities even after five months.  
