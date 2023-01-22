@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/content/gcs-pre-independence-industry/"}
 ---
 
+# Pre-Independence Industry
 
 Mining is the extraction of valuable minerals or other geological materials from the Earth. The process typically involves the use of large equipment and machinery to excavate and extract the desired materials, which can include metals, minerals, coal, and other resources.
 
