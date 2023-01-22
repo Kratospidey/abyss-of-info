@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/content/gcs-timeline/"}
 ---
 
+# Timeline of Events
 
 On 16 October 2001, as a result of a heavy rainfall a small earth slide occurred on the heap leach pad. The moving soil pushed a pipe carrying cyanide solution from the ponds to the pads and broke it at the coupling joint. The solution escaped from the pipe and ran down the access ramp into the stormwater ditch from where it escaped into the nearby Sumang stream through a culvert. The spillage was detected at about 3· 45am by the company’ s personnel working on a conveyor breakdown. In their estimation the spillage must have taken place between 1· 30 and 1· 45am. Rainfall data revealed that on 15 October 2001 (the day before the incident), 12· 5 mm of rain was recorded between 3· 10 and 3· 25pm, and thereafter showers of rain (0· 1 mm) were noted until 10· 25pm the same day. On the day of the incident no further rain was recorded. The earlier rain could have soaked the heap leach pad, creating instability, which precipitated the slide.
 
