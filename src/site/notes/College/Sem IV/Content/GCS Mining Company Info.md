@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/content/gcs-mining-company-info/"}
 ---
 
+# Information on company related to the incident and processes used
+
 ## The Company related to the incident: Gold Fields Ghana Ltd.
 ### Background:
 Gold Fields Ghana Limited (GFGL) is a Ghanaian mining company that operates the Tarkwa and Damang gold mines. Gold Fields Ghana is a subsidiary of Gold Fields Limited, a South African company that is one of the world's largest gold mining firms. The company was originally established in 1887 as the Ashanti Goldfields Corporation, but it changed its name to Gold Fields Ghana Limited in 1998.
@@ -22,4 +24,5 @@ Cyanide leaching is a process used in mining to extract precious metals, particu
 
 Cyanide leaching has been widely used in the mining industry for over a century, due to its effectiveness and efficiency in extracting gold from ore. However, it is also a highly controversial method due to the toxic nature of cyanide and the potential for environmental and health impacts if not properly controlled and contained.
 
-### 2. Carbon in Column
+### 2. Carbon in Column:
+In the Tarkwa gold mine in Ghana, the carbon-in-column (CIC) process is used to extract gold from the ore. The CIC process is a method of gold extraction that uses activated carbon to adsorb the gold from the cyanide leach solution. The carbon is added to the leach tanks (or reaction vessels) in the form of small beads. The gold in the cyanide solution attaches to the surface of the carbon, which is then removed from the solution and washed to remove any remaining cyanide. The gold is then eluted (stripped) from the carbon using a hot caustic solution, which releases the gold from the carbon so it can be recovered as a solid or a liquid. The CIC process is a relatively low-cost method of recovering gold and is commonly used in many gold mining operations worldwide.
