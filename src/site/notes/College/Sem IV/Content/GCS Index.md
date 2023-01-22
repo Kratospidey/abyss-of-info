@@ -26,7 +26,7 @@ ___
 ## Conclusion
 
 [[College/Sem IV/Content/GCS Preventive Measures for the future\|GCS Preventive Measures for the future]]
-[[GCS Citations\|GCS Citations]]
+[[College/Sem IV/Content/GCS Citations\|GCS Citations]]
 
 ___
 
