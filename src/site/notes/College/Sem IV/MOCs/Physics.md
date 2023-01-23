@@ -4,4 +4,4 @@
 
 [[College/Sem IV/Content/Physics Old Project\|Physics Old Project]]
 [[College/Sem IV/Content/Introduction to Quantum Mechanics\|Introduction to Quantum Mechanics]]
-[[Physics Project - Webduino\|Physics Project - Webduino]]
+[[College/Sem IV/Content/Physics Project - Webduino\|Physics Project - Webduino]]
