@@ -3,7 +3,7 @@
 ---
 
 
-To assist mining companies and regulatory authorities in the control of cyanide spills and its impacts, the following measures are recommended:
+To assist mining companies and regulatory authorities in the control of cyanide spills and its impacts, the following measures are recommended: 
 
 1. To improve public awareness of environmental safety and risks of mining operations, regulatory authorities should mount programs  to bridge the knowledge gap between the mining companies and the local communities. Community relations and focused support for the communities by mining companies is also vital.
 
