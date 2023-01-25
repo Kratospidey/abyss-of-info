@@ -6,4 +6,4 @@
 [[College/Sem IV/Content/DS Lab 2\|DS Lab 2]]
 [[College/Sem IV/Content/DS Lab 3\|DS Lab 3]]
 [[College/Sem IV/Content/DS Lab 4\|DS Lab 4]]
-[[DS Lab 5\|DS Lab 5]]
+[[College/Sem IV/Content/DS Lab 5\|DS Lab 5]]
