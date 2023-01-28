@@ -3,7 +3,7 @@
 ---
 
 
-Final finished product is at [[Ghana 2001 Cyanide Spill Case Study - Param Makwana F004 & Jash Kanani F010\|Ghana 2001 Cyanide Spill Case Study - Param Makwana F004 & Jash Kanani F010]]
+Final finished product is at [[College/Sem IV/Content/Ghana 2001 Cyanide Spill Case Study - Param Makwana F004 & Jash Kanani F010\|Ghana 2001 Cyanide Spill Case Study - Param Makwana F004 & Jash Kanani F010]]
 
 
 [[College/Sem IV/Content/GCS What is Mining\|GCS What is Mining]]
