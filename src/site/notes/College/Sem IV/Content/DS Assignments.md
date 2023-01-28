@@ -3,4 +3,4 @@
 ---
 
 
-[[Assignment 1\|Assignment 1]]
+[[College/Sem IV/Content/Assignment 1\|Assignment 1]]
