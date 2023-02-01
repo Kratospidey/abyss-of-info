@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/sem-iv-courses/"}
+{"dg-publish":true,"permalink":"/sem-iv-courses/","tags":["favorite"]}
 ---
 
 [[College/Sem IV/MOCs/ITL\|ITL]]
