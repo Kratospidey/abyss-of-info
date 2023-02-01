@@ -29,8 +29,5 @@ ___
 [[College/Sem IV/Content/GCS Citations\|GCS Citations]]
 
 ___
-
-[[College/Sem IV/Content/Ghana Cyanide Spill Case Study 2001 - Param Makwana F004 & Jash Kanani F010\|Ghana Cyanide Spill Case Study 2001 - Param Makwana F004 & Jash Kanani F010]]
-
-FINAL COMPILED THING: [[College/Sem IV/Content/Ghana 2001 Cyanide Spill Case Study - Param Makwana F004 & Jash Kanani F010\|Ghana 2001 Cyanide Spill Case Study - Param Makwana F004 & Jash Kanani F010]] 
+[[College/Sem IV/Content/GCS 2001\|GCS 2001]] 
 
