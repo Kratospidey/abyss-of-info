@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/java-script-moc/"}
+{"dg-publish":true,"permalink":"/java-script-moc/","tags":["favorite"]}
 ---
 
 Collection of things I learnt pertaining to JavaScript
