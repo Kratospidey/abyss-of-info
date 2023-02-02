@@ -10,5 +10,5 @@ A note to link major essential notes together
 
 [[French\|French]]
 
-[[People\|People]]
+[[Hub/People\|People]]
 
