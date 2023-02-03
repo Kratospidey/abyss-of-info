@@ -3,15 +3,10 @@
 ---
 
 
-- [[College/Sem IV/Physics/Arduino Microprocessor\|Arduino Microprocessor]]
-- [[College/Sem IV/Physics/Arduino Thermostat\|Arduino Thermostat]]
-- [[College/Sem IV/Physics/Introduction to Quantum Mechanics\|Introduction to Quantum Mechanics]]
-- [[College/Sem IV/Physics/IQM Videos\|IQM Videos]]
-- **[[College/Sem IV/Physics/PGR/PGR\|PGR]]**
-- [[College/Sem IV/Physics/Physics Chapters\|Physics Chapters]]
-- [[College/Sem IV/Physics/Physics Game Report\|Physics Game Report]]
-- [[College/Sem IV/Physics/Physics Old Project\|Physics Old Project]]
-- [[College/Sem IV/Physics/Physics Project - Webduino\|Physics Project - Webduino]]
-- [[College/Sem IV/Physics/Piezoelectric Sensor\|Piezoelectric Sensor]]
+- **Physics Project**
+	- **[[College/Sem IV/Physics/Physics Project/PGR/PGR\|PGR]]**
+	- **[[College/Sem IV/Physics/Physics Project/PiezoProject/PiezoProject\|PiezoProject]]**
+	- **[[College/Sem IV/Physics/Physics Project/WebDuino/WebDuino\|WebDuino]]**
+- **[[College/Sem IV/Physics/Physics Theory/Physics Theory\|Physics Theory]]**
 
 
