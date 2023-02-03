@@ -92,17 +92,17 @@ ___
 | LavaMeltsStoneChance | The chance of lava melting stone, expressed as an integer value (1.0/chance) |
 | LavaMeltsSandChance | The chance of lava melting sand, expressed as an integer value (1.0/chance) |
 | LavaMeltsDirtChance | The chance of lava melting dirt, expressed as an integer value (1.0/chance) |
-| WoodIgnitionChance | The chance of wood igniting, expressed as an integer value (1
+| WoodIgnitionChance | The chance of wood igniting, expressed as an integer value (1.0/chance) |
 
 ## Code Snippet explanation
 
 here's a short explanation of a few individual critical functions used in the code
 
-1.  `Swap`: This method swaps two particle elements in the matrix and updates their colors.
+1.  `Swap`: This method swaps two particle elements in the matrix and updates their colours.
 2.  `StepAll`: This method performs a step function on all particles in the matrix, which updates their position and velocity based on the laws of physics. 
 3.  `Add`: This method adds a particle to the matrix at a specified position with a specified velocity, or at a specified position without a velocity.
 4.  `Erase`: This method removes a particle from the matrix.
-5.  `Set`: This method sets the type of a particle in the matrix.
+5.  `Set`: This method sets the type of particle in the matrix.
 6.  `ToggleFrameUpdate`: This method toggles the frame update of the matrix, which is used to keep track of which elements have been updated in the current frame.
 7.  `GetMatrix`: This method returns the matrix representation of the particle system.
 
@@ -129,14 +129,14 @@ The `Main` method first sets the thread priority to the highest and initializes 
 
 ## Explanation of Util.cs File
 
-This code defines a `Utils` static class in the `SandBoxSFML` namespace. The class provides several utility functions that manipulate numbers, colors and random values. These functions are:
+This code defines a `Utils` static class in the `SandBoxSFML` namespace. The class provides several utility functions that manipulate numbers, colours and random values. These functions are:
 
 1.  `Clamp(int num, int min, int max)` - clamps an integer value `num` between a given minimum and maximum value.
 2.  `Next(int min, int max)` - returns a random integer between a given minimum and maximum value.
 3.  `NextDouble()` - returns a random floating-point number between 0 and 1.
 4.  `RandomValue(int lower, int upper)` - returns a random integer between two given bounds, swapping the bounds if `lower` is greater than `upper`.
 5.  `NextBoolean()` - returns a random boolean value, either `true` or `false`.
-6.  `InvertColor(Color color)` - inverts an RGB color by subtracting each of its color values (R, G, B) from 255, and returning a new color.
+6.  `InvertColor(Color color)` - inverts an RGB colour by subtracting each of its colour values (R, G, B) from 255, and returning a new colour.
 
 The code also uses `System` and `SFML.Graphics` namespaces, and creates a private static `Random` object `_r` for generating random values.
 
