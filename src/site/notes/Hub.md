@@ -4,11 +4,9 @@
 
 A note to link major essential notes together
 
-[[JavaScript MOC\|JavaScript MOC]]
+[[Programming/Programming\|Programming]]
 
-[[Sem - IV Courses\|Sem - IV Courses]]
+[[College/Sem IV/Sem IV\|Sem IV]]
 
-[[French\|French]]
 
-[[Hub/People\|People]]
 
