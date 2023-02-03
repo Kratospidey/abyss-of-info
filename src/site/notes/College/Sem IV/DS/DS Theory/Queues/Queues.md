@@ -1507,3 +1507,392 @@ int main()
 ```
 
 ___
+
+# Implementation and Usage of a Priority Queue in C++
+
+A priority queue is a type of data structure where each element is assigned a priority and the elements with higher priorities are served before the elements with lower priorities. This makes it a useful data structure for tasks such as scheduling and processing requests.
+
+Advantages of using a priority queue include:
+
+1.  Efficient implementation: A priority queue can be efficiently implemented using various data structures such as arrays, linked lists, and binary heaps.
+ 
+2.  Dynamic allocation of resources: A priority queue can be used to dynamically allocate resources in real-time systems such as computer networks, where resources are limited and must be allocated based on priority.
+  
+3.  Real-time processing: A priority queue is useful for real-time processing, where processing time is critical and the order of processing tasks is important.
+ 
+
+Disadvantages of using a priority queue include:
+
+1.  Complexity: Implementing a priority queue can be complex, especially when using a linked list or binary heap data structure.
+ 
+2.  Costly operations: Operations such as insertion and deletion in a priority queue can be time-consuming and require additional memory.
+
+3.  Unpredictable behavior: In a priority queue, the order of elements may change dynamically, making it difficult to predict the behavior of the system.
+
+
+## Priority Queue Array Implementation
+
+```C++
+
+#include <iostream>
+
+#include <algorithm>
+
+  
+
+const int MAX_SIZE = 100;
+
+  
+
+class PriorityQueue
+
+{
+
+private:
+
+    int arr[MAX_SIZE];
+
+    int size;
+
+  
+
+public:
+
+    PriorityQueue() : size(0) {}
+
+  
+
+    bool isEmpty()
+
+    {
+
+        return size == 0;
+
+    }
+
+  
+
+    bool isFull()
+
+    {
+
+        return size == MAX_SIZE;
+
+    }
+
+  
+
+    void insert(int data)
+
+    {
+
+        if (isFull())
+
+        {
+
+            std::cout << "Priority Queue is full" << std::endl;
+
+            return;
+
+        }
+
+        arr[size++] = data;
+
+        int i = size - 1;
+
+        int parent = (i - 1) / 2;
+
+        while (i > 0 && arr[parent] < arr[i])
+
+        {
+
+            std::swap(arr[parent], arr[i]);
+
+            i = parent;
+
+            parent = (i - 1) / 2;
+
+        }
+
+    }
+
+  
+
+    int getMax()
+
+    {
+
+        if (isEmpty())
+
+        {
+
+            std::cout << "Priority Queue is empty" << std::endl;
+
+            return -1;
+
+        }
+
+        return arr[0];
+
+    }
+
+  
+
+    int removeMax()
+
+    {
+
+        if (isEmpty())
+
+        {
+
+            std::cout << "Priority Queue is empty" << std::endl;
+
+            return -1;
+
+        }
+
+        int max = arr[0];
+
+        arr[0] = arr[--size];
+
+        int i = 0;
+
+        int left = 2 * i + 1;
+
+        int right = 2 * i + 2;
+
+        int largest = i;
+
+        if (left < size && arr[left] > arr[i])
+
+        {
+
+            largest = left;
+
+        }
+
+        if (right < size && arr[right] > arr[largest])
+
+        {
+
+            largest = right;
+
+        }
+
+        if (largest != i)
+
+        {
+
+            std::swap(arr[i], arr[largest]);
+
+            i = largest;
+
+            left = 2 * i + 1;
+
+            right = 2 * i + 2;
+
+        }
+
+        return max;
+
+    }
+
+};
+
+  
+
+int main()
+
+{
+
+    PriorityQueue pq;
+
+    pq.insert(10);
+
+    pq.insert(30);
+
+    pq.insert(20);
+
+    std::cout << "Max: " << pq.getMax() << std::endl;
+
+    pq.removeMax();
+
+    std::cout << "Max: " << pq.getMax() << std::endl;
+
+    return 0;
+
+}
+
+```
+
+
+## Priority Queue Linked List Implementation
+
+```C++
+
+#include <iostream>
+
+  
+
+class Node
+
+{
+
+public:
+
+    int data;
+
+    Node *next;
+
+  
+
+    Node(int data) : data(data), next(nullptr) {}
+
+};
+
+  
+
+class PriorityQueue
+
+{
+
+private:
+
+    Node *head;
+
+    Node *tail;
+
+  
+
+public:
+
+    PriorityQueue() : head(nullptr), tail(nullptr) {}
+
+  
+
+    bool isEmpty()
+
+    {
+
+        return head == nullptr;
+
+    }
+
+  
+
+    void insert(int data)
+
+    {
+
+        Node *temp = new Node(data);
+
+        if (head == nullptr || data <= head->data)
+
+        {
+
+            temp->next = head;
+
+            head = temp;
+
+        }
+
+        else
+
+        {
+
+            Node *p = head;
+
+            while (p->next != nullptr && p->next->data < data)
+
+            {
+
+                p = p->next;
+
+            }
+
+            temp->next = p->next;
+
+            p->next = temp;
+
+        }
+
+    }
+
+  
+
+    int getMax()
+
+    {
+
+        if (head == nullptr)
+
+        {
+
+            std::cout << "Priority Queue is empty" << std::endl;
+
+            return -1;
+
+        }
+
+        return head->data;
+
+    }
+
+  
+
+    int removeMax()
+
+    {
+
+        if (head == nullptr)
+
+        {
+
+            std::cout << "Priority Queue is empty" << std::endl;
+
+            return -1;
+
+        }
+
+        Node *temp = head;
+
+        int data = temp->data;
+
+        head = head->next;
+
+        delete temp;
+
+        return data;
+
+    }
+
+};
+
+  
+
+int main()
+
+{
+
+    PriorityQueue pq;
+
+    pq.insert(10);
+
+    pq.insert(30);
+
+    pq.insert(20);
+
+    std::cout << "Max: " << pq.getMax() << std::endl;
+
+    pq.removeMax();
+
+    std::cout << "Max: " << pq.getMax() << std::endl;
+
+    return 0;
+
+}
+
+```
+
+___
