@@ -1,0 +1,13 @@
+---
+{"dg-publish":true,"permalink":"/college/sem-iv/physics/physics-project/pgr/pgr-theory/"}
+---
+
+In order to accurately simulate the behavior of particles in the particle simulator physics-based game, a thorough understanding of particle interactions and behavior was required. The first step in the theoretical aspect of the project was to determine the constants that would be used in the simulation, such as the gravitational constant and the rate of spread of different liquids and powders. In order to find the appropriate values for these constants, extensive experimentation was conducted. The results of these experiments were used to inform the development of algorithms that could accurately simulate the behavior of each particle.
+
+One important aspect of the simulation was the generation of moving trees, which involved developing an algorithm that would take into account the movement and behavior of each particle in the simulation. To achieve this, the algorithm needed to consider the interactions between different particles, such as the effects of gravity, temperature, and pressure. In addition, the algorithm needed to take into account the physical properties of each particle, such as density and viscosity.
+
+Another important aspect of the simulation was the creation of an algorithm to simulate the behavior of fluids, such as water, oil, and acid. This involved determining the fluid mechanics equations that would be used in the simulation, as well as the mathematical models that would be used to represent the behavior of each fluid. The algorithm needed to take into account the physical properties of each fluid, such as surface tension and viscosity, in order to accurately simulate the behavior of each fluid in the simulation.
+
+In addition to these theoretical considerations, the project also involved a significant amount of computational work. The algorithms that were developed as part of the theoretical research were implemented in the simulation in order to accurately replicate the behavior of each particle. The computational software used in the project was carefully selected and its details, including its name and version, are included in the report.
+
+The combination of theoretical research and computational work was essential to the success of the particle simulator physics-based game. The results of the simulation demonstrate the success of the project in accurately replicating particle behavior and interactions. 
