@@ -1,0 +1,5 @@
+---
+{"dg-publish":true,"permalink":"/college/sem-iv/physics/pgr/pgr-abstract/"}
+---
+
+This report presents the design and implementation of a particle simulator physics-based game. The aim of the project was to create a simulation of various particles and their interactions in a virtual environment. The game includes a list of 18 different particles, including Sand, Water, Stone, Oil, Fire, Steam, Smoke, Coal, Wood, Acid, Titan, Lava, Ash, Methane, Burning, Ice, Dirt, Seed and Virus. The project involved extensive experimentation using code and constants on particle behavior and interactions, as well as the development of computational algorithms to simulate the behavior of each particle. The results of the project demonstrate the success of the simulation in accurately replicating particle behavior and interactions. The report includes link to all the codes used too.
