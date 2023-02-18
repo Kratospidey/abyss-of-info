@@ -8,5 +8,6 @@
 - [[College/Sem IV/DS/DS Labs/DS Lab 3\|DS Lab 3]]
 - [[College/Sem IV/DS/DS Labs/DS Lab 4\|DS Lab 4]]
 - [[College/Sem IV/DS/DS Labs/DS Lab 5\|DS Lab 5]]
+- [[College/Sem IV/DS/DS Labs/DS Lab 6\|DS Lab 6]]
 
 
