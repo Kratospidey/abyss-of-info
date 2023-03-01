@@ -10,7 +10,6 @@
 using namespace std;
 
 const int NUM_DISKS = 3, SOURCE = 0, DEST = 2, AUX = 1;
-;
 
 stack<int> towers[3];
 
