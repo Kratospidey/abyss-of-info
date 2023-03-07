@@ -7,5 +7,6 @@
 - [[College/Sem IV/ITL/ITL Labs/ITL Lab 2\|ITL Lab 2]]
 - [[College/Sem IV/ITL/ITL Labs/ITL Lab 3\|ITL Lab 3]]
 - [[College/Sem IV/ITL/ITL Labs/ITL Lab 6\|ITL Lab 6]]
+- [[ITL LAB 8\|ITL LAB 8]]
 
 
