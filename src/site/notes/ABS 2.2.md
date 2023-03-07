@@ -1,6 +1,0 @@
----
-{"dg-publish":true,"permalink":"/abs-2-2/"}
----
-
-
-The paper discusses the potential risk of local extinction for species with restricted ranges and those that are already threatened due to habitat loss caused by megafires. The authors identify the species most affected by quantifying the spatial overlap between the 2019/2020 bushfires and native species habitat using species distribution models across Victoria for ~4,200 taxa of terrestrial vertebrate fauna and vascular plants. They calculate the percentage of each species' habitat that fell within the boundary of the bushfires and weigh the percentage overlap by modelled habitat quality. The authors categorize species based on their conservation status and broad taxonomic/functional guild. The analysis is repeated by calculating the proportion of habitat burnt by high severity fire, which allowed the authors to assess which species were affected most acutely by the fire. Finally, the authors explore if species were disproportionately affected in areas of high-suitability habitat by calculating the proportion of habitat burnt by fire using high-threshold habitat distribution models.
