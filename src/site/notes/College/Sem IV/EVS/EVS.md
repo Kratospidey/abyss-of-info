@@ -3,6 +3,8 @@
 ---
 
 
-- **[[GCS Case Study\|GCS Case Study]]**
+- **[[College/Sem IV/EVS/GCS Case Study/GCS Case Study\|GCS Case Study]]**
+- [[ABS\|ABS]]
+
 
 
