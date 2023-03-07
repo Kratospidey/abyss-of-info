@@ -8,5 +8,6 @@
 	- [[Programming/Programming Languages/CSS/Flexbox Resources\|Flexbox Resources]]
 - **[[Programming/Programming Languages/Javascript/Javascript\|Javascript]]**
 - **[[Programming/Programming Languages/ShellScript/ShellScript\|ShellScript]]**
+	- [[Programming/Programming Languages/ShellScript/ShellScript Resources\|ShellScript Resources]]
 
 
