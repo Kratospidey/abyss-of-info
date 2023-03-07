@@ -2,4 +2,4 @@
 {"dg-publish":true,"permalink":"/programming/programming-languages/css/css/"}
 ---
 
-[[ShellScript Resources\|ShellScript Resources]]
+[[Programming/Programming Languages/ShellScript/ShellScript Resources\|ShellScript Resources]]
