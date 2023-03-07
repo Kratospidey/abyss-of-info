@@ -1,0 +1,5 @@
+---
+{"dg-publish":true,"permalink":"/college/sem-iv/evs/abs-report/abs-4-1/"}
+---
+
+The Australian megafires of 2019-2020 had a severe impact on many species, with over 346 species having more than 40% of their habitat burnt. The majority of affected species were flora, and high severity fires had significant conservation implications for individual species. To assist their recovery, 21 candidate recovery actions were identified, ranging from species-specific to landscape-scale actions. Species-specific actions aimed to increase survival and spread the risk of future megafires across multiple populations, while landscape-scale actions focused on invasive species management. Prioritizing actions post-fire and implementing ongoing landscape-scale predator management programs before fires occur will increase species' chances of recovery.
