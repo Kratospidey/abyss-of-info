@@ -1,0 +1,5 @@
+---
+{"dg-publish":true,"permalink":"/college/sem-iv/evs/abs-report/abs-3-3/"}
+---
+
+The SCAP identified controlling deer, predators, and weeds as highly cost-effective actions in the fire-affected region before the fires. Preliminary post-fire analysis suggests that these actions have become even more beneficial and cost-effective, as feral animals and weeds may severely inhibit post-fire recovery for many native species. Deer control, weed control, cat control, fox control, and pig control are likely to be cost-effective over large tracts of the burned area. The SCAP also identifies where within and adjacent to the burned areas these actions are likely to be most cost-effective, depending on where the biodiversity values represented will benefit most per unit cost. Unburned areas within and adjacent to the megafire extent and low severity burned areas were identified as high priority for action.
