@@ -1,6 +1,0 @@
----
-{"dg-publish":true,"permalink":"/abs-2-1/"}
----
-
-
-The paper covers the Victorian region of the 2019/2020 Australian megafires, which burned around 1.5 million hectares of forest, woodland, and alpine areas, along with patches of agricultural land. Wildfires are a regular disturbance in the region, with fire return intervals varying from every 5-20 years in lower elevation dry eucalypt forests to over 100 years in mesic eucalypt and rainforests. The 2019/2020 fire season was unprecedented and burnt more than 6 million hectares of temperate broadleaf forest and woodland across southeastern Australia, with three large wildfire complexes accounting for most of the area burnt in Victoria. The megafires were largely caused by record low fuel moisture levels and severe fire weather, driven by an extreme and prolonged drought. The paper uses mapped fire extent and severity mapping to understand the spatial variation in fire effects on biodiversity. The two highest fire severity classes are defined as "high severity fire," including areas where the canopy foliage has been largely consumed or scorched.
