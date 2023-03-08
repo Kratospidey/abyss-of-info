@@ -7,8 +7,8 @@
 ## Text-Based Resources
 - [Bash Guide](https://mywiki.wooledge.org/BashGuide)
 - [Linux Command](http://linuxcommand.org/lc3_writing_shell_scripts.php)
-- [understanding bash programming]([https://www.linuxjournal.com/content/understanding-bash-elements-programming](https://www.linuxjournal.com/content/understanding-bash-elements-programming "https://www.linuxjournal.com/content/understanding-bash-elements-programming"))
-- [Bash Beginners Guide Book]([https://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf](https://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf "https://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf"))
+- [understanding bash programming](https://www.linuxjournal.com/content/understanding-bash-elements-programming)
+- [Bash Beginners Guide Book](https://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf)
 - [Linux Journey](https://linuxjourney.com)
 - [Bash Hackers](https://wiki.bash-hackers.org)
 
