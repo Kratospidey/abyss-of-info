@@ -19,5 +19,5 @@
 
 
 > [!info] 
-> Although you can use any resources to learn, the one's I'd recommend personally are the first 3 resources from Text-Based section and the either of the 2 playlists from the Video-Based section
+> Although you can use any resources to learn, the one's I'd recommend personally are the first 3 resources from Text-Based section and either of the 2 playlists from the Video-Based section
 
