@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/college/sem-iv/assignments/ds-assignment-1/"}
 ---
 
-assignment
 
 **Name:** [Param Makwana](mailto:paramsinghmakwana@gmail.com)                                                                                                                                                     
 
