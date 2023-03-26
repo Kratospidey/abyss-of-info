@@ -19,5 +19,6 @@
 - [# How to Beat Procrastination - Ali Abdaal](https://www.youtube.com/watch?v=RP0oVOH4Zz4)
 - [https://www.youtube.com/watch?v=_cq3y5Bx4yU](https://www.youtube.com/watch?v=_cq3y5Bx4yU)
 - [The Real Cause of Procrastination Explained](https://www.youtube.com/@drdavidmaloneypsychotherapy)
+- [Webinar on Procrastination by a Psychatrist](https://www.youtube.com/watch?v=bavdneN9sKg)
 
 
