@@ -8,7 +8,7 @@ A note to link major essential notes together
 
 [[College/Sem IV/Sem IV\|Sem IV]]
 
-[[Books\|Books]]
+[[Literature/Books/Books\|Books]]
 
-
+[[Psychology/Psychology\|Psychology]]
 
