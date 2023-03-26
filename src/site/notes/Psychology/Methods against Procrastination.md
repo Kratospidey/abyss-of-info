@@ -3,6 +3,7 @@
 ---
 
 # A few articles worth checking out
+- [How to beat procrastination - Tim Urban](https://waitbutwhy.com/2013/11/how-to-beat-procrastination.html)
 - [How to beat procrastination - HBR](https://hbr.org/2016/07/how-to-beat-procrastination)
 - [Procrastination: A Scientific Guide on How to Stop Procrastinating](https://jamesclear.com/procrastination)
 - [Procrastination - UNC](https://writingcenter.unc.edu/tips-and-tools/procrastination/)
