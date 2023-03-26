@@ -3,10 +3,10 @@
 ---
 
 # A few articles worth checking out
-[How to beat procrastination - HBR](https://hbr.org/2016/07/how-to-beat-procrastination)
-[Procrastination: A Scientific Guide on How to Stop Procrastinating](https://jamesclear.com/procrastination)
-[Procrastination - UNC](https://writingcenter.unc.edu/tips-and-tools/procrastination/)
-[How to stop procrastinating - SPICA](https://www.spica.com/blog/how-to-stop-procrastinating)
+- [How to beat procrastination - HBR](https://hbr.org/2016/07/how-to-beat-procrastination)
+- [Procrastination: A Scientific Guide on How to Stop Procrastinating](https://jamesclear.com/procrastination)
+- [Procrastination - UNC](https://writingcenter.unc.edu/tips-and-tools/procrastination/)
+- [How to stop procrastinating - SPICA](https://www.spica.com/blog/how-to-stop-procrastinating)
 
 # A Few Reddit posts worth skimming through
 
