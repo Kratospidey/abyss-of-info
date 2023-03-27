@@ -130,6 +130,51 @@ Sequence: `8, 101, 45,30, 543,233,321, 833,432, 9.`
 
 ---
 
+# Explain bucket sort with example
+
+> [!info] What is Bubble Sort?
+ Bucket sort is a sorting algorithm that works by distributing elements of an array into a number of buckets. Each bucket is then sorted individually using another sorting algorithm or recursively applying the bucket sort algorithm. Finally, the sorted buckets are concatenated to produce the final sorted array.
+
+## Example
+
+1. The array to be sorted is - [`0.78, 0.11, 0.39, 0.26, 0.72, 0.94, 0.21, 0.12, 0.23, 0.68`]
+2. Initialize the empty buckets
+	- Bucket 0: []
+	- Bucket 1: []
+	- Bucket 2: []
+	- Bucket 3: []
+	- Bucket 4: []
+	- Bucket 5: []
+	- Bucket 6: []
+	- Bucket 7: []
+	- Bucket 8: []
+	- Bucket 9: []
+3. sort the elements into their respective buckets
+	- Bucket 0: []
+	- Bucket 1: [`0.17, 0.12, NULL`]
+	- Bucket 2: [`0.26, 0.21, 0.23, NULL`]
+	- Bucket 3: [`0.39, NULL`]
+	- Bucket 4: []
+	- Bucket 5: []
+	- Bucket 6: [`0.68, NULL`]
+	- Bucket 7: [`0.78, 0.72, NULL`]
+	- Bucket 8: []
+	- Bucket 9: [`0.94, NULL`]
+4. Sort the individual buckets themselves
+	- Bucket 0: []
+	- Bucket 1: [`0.12, 0.17, NULL`]
+	- Bucket 2: [`0.21, 0.23, 0.26, NULL`]
+	- Bucket 3: [`0.39, NULL`]
+	- Bucket 4: []
+	- Bucket 5: []
+	- Bucket 6: [`0.68, NULL`]
+	- Bucket 7: [`0.72, 0.78, NULL`]
+	- Bucket 8: []
+	- Bucket 9: [`0.94, NULL`]
+5. Join the buckets in order to get the final sorted sequence: [`0.12, 0.17, 0.21, 0.23, 0.26, 0.39, 0.68, 0.72, 0.78, 0.94`]
+
+---
+
 # Execute quick sort on given sequence, with first element as pivot element. Show the output stepwise: 5, 3, 8, 1, 4, 6, 2, 7
 
 1. 5, 3, 8, 1, 4, 6, 2, 7 [3 - l, 7 - r]
@@ -137,7 +182,9 @@ Sequence: `8, 101, 45,30, 543,233,321, 833,432, 9.`
 3. 5, 3, 2, 1, 4, 6, 8, 7 [1 - l, 6- r]
 4. 5, 3, 2, 1, 4, 6, 8, 7 [4- l, 4 - r]
 5. $\therefore$ 3, 2, 1, 4, 5, 6, 8, 7
-6. 3, 2, 1, 4  5 6, 8, 7
+6. $\therefore$ 3, 2, 1, 4 [3 - pivot, 2 - l, 4 - r] | 5 | 6, 8, 7 [6 - pivot, 8 - l, 7 - r]
+7. $\therefore$ 3, 2, 1, 4 [3 - pivot, 1 - l, 1 - r] | 5 | 6, 7, 8 [6 - pivot, 8 - l, 7 - r]
+8. $\therefore$ The final sorted sequence using quick sort is - [`1, 2, 3, 4, 5, 6, 7, 8`]
 
 ---
 
