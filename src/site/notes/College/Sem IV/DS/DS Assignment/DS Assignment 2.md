@@ -19,42 +19,56 @@ Sequence: ` 4, 6, 8, 3, 9, -1, 5, 2`
 
 - Compare 4 and 6. No swap needed.
 - Compare 6 and 8. No swap needed.
-- Compare 8 and 3. Swap needed. New sequence: `4, 6, 3, 8, 9, -1, 5`
+- Compare 8 and 3. Swap needed. New sequence: `4, 6, 3, 8, 9, -1, 5, 2`
 - Compare 8 and 9. No swap needed.
-- Compare 9 and -1. Swap needed. New sequence: `4, 6, 3, 8, -1, 9, 5`
-- Compare 9 and 5. Swap needed. New sequence: `4, 6, 3, 8, -1, 5, 9`
+- Compare 9 and -1. Swap needed. New sequence: `4, 6, 3, 8, -1, 9, 5, 2`
+- Compare 9 and 5. Swap needed. New sequence: `4, 6, 3, 8, -1, 5, 9, 2`
+- Compare 9 and 2. Swap needed. New sequence: `4, 6, 3, 8, -1, 5, 2, 9`
 
 ## Second Pass
 
 - Compare 4 and 6. No swap needed.
-- Compare 6 and 3. Swap needed. New sequence: `4, 3, 6, 8, -1, 5, 9`
+- Compare 6 and 3. Swap needed. New sequence: `4, 3, 6, 8, -1, 5, 2, 9`
 - Compare 6 and 8. No swap needed.
-- Compare 8 and -1. Swap needed. New sequence: `4, 3, 6, -1, 8, 5, 9`
-- Compare 8 and 5. Swap needed. New sequence: `4, 3, 6, -1, 5, 8, 9`
+- Compare 8 and -1. Swap needed. New sequence: `4, 3, 6, -1, 8, 5, 2, 9`
+- Compare 8 and 5. Swap needed. New sequence: `4, 3, 6, -1, 5, 8, 2, 9`
+- Compare 8 and 2. Swap needed. New sequence: `4, 3, 6, -1, 5, 2, 8, 9`
 - Compare 8 and 9. No swap needed.
 
 ## Third Pass
-- Compare 4 and 3. Swap needed. New sequence: `3, 4, 6, -1, 5, 8, 9`
+- Compare 4 and 3. Swap needed. New sequence: `3, 4, 6, -1, 5, 2, 8, 9`
 - Compare 4 and 6. No swap needed.
-- Compare 6 and -1. Swap needed. New sequence: `3, 4, -1, 6, 5, 8, 9`
-- Compare 6 and 5. Swap needed. New sequence: `3, 4, -1, 5, 6, 8, 9`
-- Compare 6 and 8. No swap needed.
+- Compare 6 and -1. Swap needed. New sequence: `3, 4, -1, 6, 5, 2, 8, 9`
+- Compare 6 and 5. Swap needed. New sequence: `3, 4, -1, 5, 6, 2, 8, 9`
+- Compare 6 and 2. Swap needed. New sequence: `3, 4, -1, 5, 2, 6, 8, 9`
+- Compare 6 and 8. No swap needed. 
 - Compare 8 and 9. No swap needed.
 
 ## Fourth Pass
 
 - Compare 3 and 4. No swap needed.
-- Compare 4 and -1. Swap needed. New sequence: `3, -1, 4, 5, 6, 8, 9`
+- Compare 4 and -1. Swap needed. New sequence: `3, -1, 4, 5, 2, 6, 8, 9`
 - Compare 4 and 5. No swap needed.
+- Compare 5 and 2. Swap needed. New sequence: `3, -1, 4, 2, 5, 6, 8, 9```
 - Compare 5 and 6. No swap needed.
 - Compare 6 and 8. No swap needed.
 - Compare 8 and 9. No swap needed.
 
 ## Fifth Pass
 
-- Compare 3 and -1. Swap needed. New sequence: `-1, 3, 4, 5, 6, 8, 9`
+- Compare 3 and -1. Swap needed. New sequence: `-1, 3, 4, 2, 5, 6, 8, 9`
 - Compare 3 and 4. No swap needed.
-- Compare 4 and 5. No swap needed.
+- Compare 4 and 2. Swap needed. New sequence: `-1, 3, 2, 4, 5, 6, 8, 9`
+- compare 4 and 5. No swap needed.
+- Compare 5 and 6. No swap needed.
+- Compare 6 and 8. No swap needed.
+- Compare 8 and 9. No swap needed.
+
+## Sixth Pass
+
+- Compare -1 and 3. No swap needed
+- Compare 3 and 2. Swap needed. New sequence: `-1, 2, 3, 4, 5, 6, 8, 9`
+- Compare 3 and 4. No swap needed.
 - Compare 5 and 6. No swap needed.
 - Compare 6 and 8. No swap needed.
 - Compare 8 and 9. No swap needed.
@@ -113,6 +127,17 @@ Sequence: `8, 101, 45,30, 543,233,321, 833,432, 9.`
 	- Bucket 8: [833]
 	- Bucket 9: []
 9. Join the buckets in order to get the final sorted sequence: [`008, 009, 030, 045, 101, 233, 321, 432, 543, 833`]
+
+---
+
+# Execute quick sort on given sequence, with first element as pivot element. Show the output stepwise: 5, 3, 8, 1, 4, 6, 2, 7
+
+1. 5, 3, 8, 1, 4, 6, 2, 7 [3 - l, 7 - r]
+2. 5, 3, 8, 1, 4, 6, 2, 7 [8 - l, 2 - r]
+3. 5, 3, 2, 1, 4, 6, 8, 7 [1 - l, 6- r]
+4. 5, 3, 2, 1, 4, 6, 8, 7 [4- l, 4 - r]
+5. $\therefore$ 3, 2, 1, 4, 5, 6, 8, 7
+6. 3, 2, 1, 4  5 6, 8, 7
 
 ---
 
