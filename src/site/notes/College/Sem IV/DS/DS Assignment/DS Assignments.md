@@ -3,4 +3,4 @@
 ---
 
 [[College/Sem IV/DS/DS Assignment/DS Assignment 1\|DS Assignment 1]]
-[[DS Assignment 2\|DS Assignment 2]]
+[[College/Sem IV/DS/DS Assignment/DS Assignment 2\|DS Assignment 2]]
