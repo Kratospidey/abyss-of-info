@@ -132,7 +132,7 @@ Sequence: `8, 101, 45,30, 543,233,321, 833,432, 9.`
 
 # Explain bucket sort with example
 
-> [!info] What is Bubble Sort?
+> [!info] What is Bucket Sort?
  Bucket sort is a sorting algorithm that works by distributing elements of an array into a number of buckets. Each bucket is then sorted individually using another sorting algorithm or recursively applying the bucket sort algorithm. Finally, the sorted buckets are concatenated to produce the final sorted array.
 
 ## Example
@@ -207,3 +207,5 @@ Sequence: `8, 101, 45,30, 543,233,321, 833,432, 9.`
 - using the same formula we get the mid-point of the right half as 22 now
 - $\because \space 80 > 22$, we search in the right half of the right half - [`24`]
 - $\therefore$ 80 isn't present in the array $\because \space  80 \neq 24$ and 24 is the only remaining element
+
+---
