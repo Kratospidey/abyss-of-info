@@ -395,3 +395,979 @@ int main()
     } while (choice != 9);
 }
 ```
+
+# Linear Queue
+```c++
+#include <iostream>
+
+using namespace std;
+
+  
+
+class Node {
+
+	public:
+
+	int val;
+	
+	Node *next;
+
+  
+
+	Node(int n) {
+	
+		this->next = nullptr;
+		
+		this->val = n;
+	
+	}
+
+};
+
+  
+
+class LinkedList {
+
+	public:
+	
+	Node *head, *tail;
+	
+	  
+	
+	//Constructor
+	
+	LinkedList() {
+	
+		head = nullptr;
+		
+		tail = nullptr;
+	
+	}
+	
+	  
+	
+	//Aux Function
+	
+	bool IsEmpty() {
+	
+		return head == nullptr && tail == nullptr;
+		
+	}
+		
+		  
+		
+	int Size() {
+		
+		if (IsEmpty()) {
+		
+			return 0;
+		
+		}
+		
+		int counter = 0;
+		
+		for (Node *tmp = head; tmp != nullptr; tmp = tmp->next) {
+		
+			++counter;
+		
+		}
+		
+		return counter;
+	
+	}
+	
+	  
+	
+	//Main Functions
+	
+	void InsertAtHead(int n) {
+	
+		Node *newnode = new Node(n);
+		
+		newnode->next = head;
+		
+		head = newnode;
+		
+		return ;
+	
+	}
+	
+	  
+	
+	void InsertAtTail(int n) {
+	
+		Node *newnode = new Node(n);
+		
+		if (tail == nullptr && head == nullptr) {
+		
+			head = tail = newnode;
+		
+			return ;
+		
+		}
+		
+		tail->next = newnode;
+		
+		tail = newnode;
+		
+		return ;
+	
+	}
+	
+	  
+	
+	int DeleteAtFront() {
+	
+		// Case for Empty list
+		
+		if (head == nullptr) {
+		
+			return -999;
+		
+		}
+		
+		int val = head->val;
+		
+		// Case for one node
+		
+		if (head == tail) {
+		
+			delete head;
+			
+			head = tail = nullptr;
+			
+			return val;
+		
+		}
+		
+		Node *temp = head;
+		
+		head = head->next;
+		
+		// Check if the new head pointer points to the last node in the list
+		
+		if (head->next == nullptr) {
+		
+			tail = head;
+		
+		}
+		
+		delete temp;
+		
+		return val;
+	
+	}
+	
+	  
+	
+	void DeleteAtTail(){
+	
+		if (head == nullptr){
+		
+			return ;
+		
+		}
+		
+		if (head->next == nullptr) {
+		
+			delete head;
+			
+			head = nullptr;
+			
+			return ;
+		
+		}
+		
+		Node *prev = head;
+		
+		Node *cur = head->next;
+		
+		while (cur->next != nullptr) {
+		
+			prev = cur;
+			
+			cur = cur->next;
+		
+		}
+		
+		delete cur;
+		
+		prev->next = nullptr;
+		
+		tail = prev;
+		
+		return ;
+	
+	}
+	
+	  
+	
+	void DeleteList(){
+		
+		if (head == nullptr) {
+		
+			return ;
+		
+		}
+		
+		Node *cur = head;
+		
+		Node *ahead = head->next;
+		
+		while (ahead != nullptr) {
+		
+			delete cur;
+		
+			cur = ahead;
+			
+			ahead = ahead->next;
+		
+		}
+		
+		delete cur;
+		
+		head = nullptr;
+		
+		return ;
+	
+	}
+	
+	  
+	
+	//Destructor
+	
+	~LinkedList(){
+	
+		if (head == nullptr) {
+		
+			return ;
+		
+		}
+		
+		Node *cur = head;
+		
+		Node *ahead = head->next;
+		
+		while (ahead != nullptr) {
+		
+			delete cur;
+			
+			cur = ahead;
+			
+			ahead = ahead->next;
+		
+		}
+		
+		delete cur;
+		
+		head = nullptr;
+		
+		return ;
+	
+	}
+	
+	  
+	
+	void Display() {
+	
+		if (head == nullptr) {
+		
+			cout<<"Empty Queue"<<endl;
+			
+			return ;
+		
+		}
+		
+		cout<<"Queue: ";
+		
+		for (Node *cur = head; cur != nullptr; cur = cur->next) {
+		
+			cout<<cur->val<<" ";
+		
+		}
+		
+		cout<<endl;
+		
+		return ;
+		
+	}
+
+};
+
+  
+
+class Queue {
+
+	public:
+	
+	LinkedList list;
+	
+	Node *head, *tail;
+	
+	  
+	
+	//Constructor
+	
+	Queue() {
+	
+		head = list.head;
+		
+		tail = list.tail;
+	
+	}
+	
+	  
+	
+	//Aux Functions
+	
+	bool IsEmpty() {
+	
+		return list.IsEmpty();
+	
+	}
+	
+	  
+	
+	int Size() {
+	
+		return list.Size();
+	
+	}
+	
+	  
+	
+	int Front() {
+	
+		if (IsEmpty()) {
+		
+			return 0;
+		
+		}
+		
+		return head->val;
+	
+	}
+	
+	  
+	
+	//Main Functions
+	
+	void Enqueue(int n) {
+	
+		list.InsertAtTail(n);
+		
+		return ;
+	
+	}
+	
+	  
+	
+	int Dequeue() {
+	
+		if (IsEmpty()) {
+		
+			cout<<"Queue Underflow"<<endl;
+			
+			return -999;
+		
+		}
+		
+		int num = list.DeleteAtFront();
+		
+		cout<<endl<<"Dequeued"<<endl<<endl;
+		
+		return num;
+	
+	}
+	
+	  
+	
+	void Display() {
+	
+		list.Display();
+	
+	}
+	
+	  
+	
+	//Destructor
+	
+	~Queue() {
+		
+		list.DeleteList();
+		
+		return ;
+	
+	}
+
+};
+
+  
+
+int main() {
+
+	Queue a;
+	
+	int choice, num = 0;
+	
+	while (choice != 5) {
+	
+		cout<<"1. Enqueue"<<endl
+		
+		<<"2. Dequeue"<<endl
+		
+		<<"3. Display"<<endl
+		
+		<<"4. Size"<<endl
+		
+		<<"5. Quit"<<endl
+		
+		<<"$ ";
+		
+		cin >> choice;
+		
+		switch(choice) {
+		
+			case 1:
+			
+				cout<<"Number: ";
+				
+				cin >> num;
+				
+				a.Enqueue(num);
+				
+				cout<<endl;
+			
+				break;
+			
+			case 2:
+			
+				a.Dequeue();
+				
+				break;
+			
+			case 3:
+			
+				cout<<endl;
+				
+				a.Display();
+				
+				cout<<endl;
+				
+				break;
+			
+			case 4:
+			
+				cout<<endl<<"Size: "<<a.Size()<<endl<<endl;
+			
+				break;
+			
+			case 5:
+			
+				break;
+			
+			default:
+			
+				cout<<"Invalid Input"<<endl<<endl;
+		
+		}
+	
+	}
+	
+	cout<<a.Front()<<endl;
+	
+	return 0;
+
+}
+```
+
+# Stack
+```c++
+#include <iostream>
+
+using namespace std;
+
+  
+
+class Node {
+
+	public:
+	
+	int val;
+	
+	Node *next;
+	
+	  
+	
+	// Constructor
+	
+	Node(int num) {
+	
+		val = num;
+		
+		next = nullptr;
+	
+	}
+
+};
+
+  
+
+class LinkedList {
+
+	public:
+	
+	Node *head, *tail;
+	
+	// Constructor
+	
+	LinkedList() {
+	
+		head = tail = nullptr;
+	
+	}
+	
+	  
+	
+	void InsertAtHead(int num) {
+	
+		Node *newNode = new Node(num);
+		
+		// Case for first node
+		
+		if (head == nullptr) {
+		
+			head = tail = newNode;
+		
+		return ;
+	
+		}
+	
+		newNode->next = head;
+		
+		head = newNode;
+	
+	}
+	
+	  
+	
+	int DeleteAtHead() {
+	
+		// Case for empty list
+		
+		if (head == nullptr) {
+		
+			return -999;
+		
+		}
+		
+		int num = head->val;
+		
+		Node *temp = head;
+		
+		  
+		
+		// Case for one node
+		
+		if (head == tail) {
+		
+			head = tail = nullptr;
+		
+		}
+		
+		else {
+		
+			head = head->next;
+		
+		}
+		
+		delete temp;
+		
+		return num;
+	
+	}
+	
+	  
+	
+	void InsertAtTail(int num) {
+	
+		Node *newNode = new Node(num);
+		
+		  
+		
+		// Case for first node
+		
+		if (tail == nullptr) {
+		
+			tail = head = newNode;
+		
+			return ;
+	
+		}
+	
+	  
+	
+		tail->next = newNode;
+		
+		tail = tail->next;
+		
+		return ;
+	
+	}
+	
+	  
+	
+	int DeleteAtTail() {
+	
+		// Case for empty list
+		
+		if (tail == nullptr) {
+		
+			return -999;
+		
+		}
+		
+		  
+		
+		Node *temp = tail;
+		
+		int num = tail->val;
+		
+		  
+		
+		//Case for one node
+		
+		if (tail == head) {
+		
+			tail = head = nullptr;
+		
+		}
+		
+		else {
+		
+			Node *tmp = head;
+			
+			for (; tmp->next != tail; tmp = tmp->next) {
+			
+				;
+			
+			}
+			
+			tail = tmp;
+		
+		}
+		
+		delete temp;
+		
+		return num;
+	
+	}
+	
+	  
+	
+	void InsertAtPos(int val, int pos) {
+		
+		int cur = 1; // Keep track of current node number
+		
+		if (head == nullptr) {
+		
+		return ;
+		
+		}
+		
+		Node *newNode = new Node(val);
+		
+		// Traverse through list till last element while checking for position to insert
+		
+		for (Node *temp = head; temp->next != nullptr; temp = temp->next) {
+		
+			if (cur == pos) {
+			
+				newNode->next = temp->next;
+				
+				temp->next = newNode;
+				
+				return ;
+			
+			}
+		
+		cur++;
+		
+		}
+
+	}
+
+  
+
+	int DeleteAtPos(int pos) {
+	
+		// Check if list is empty
+		
+		if (head == nullptr) {
+		
+			cout<<"List is empty"<<endl;
+		
+			return -999;
+	
+		}
+
+		// This will be before the target node
+		
+		Node *before = head;
+		
+		// Traverse the list until you either run out of nodes or reach the node required
+		
+		for (int i = 1; before != nullptr && i < pos - 1; i++, before = before->next) {
+		
+			;
+		
+		}
+		
+		// If the list is shorter than the position to delete
+		
+		if (before == nullptr || before->next == nullptr) {
+		
+			cout<<"List is shorter than given position"<<endl;
+		
+			return -999;
+	
+	}
+
+		// This node is after the target node
+		
+		Node *after = before->next->next;
+		
+		int val = before->next->val;
+		
+		delete before->next;
+		
+		before->next = after;
+		
+		return val;
+
+	}
+
+  
+
+	void DelList() {
+	
+		if (head == nullptr){
+		
+			return ;
+		
+		}
+		
+		Node *cur = head;
+		
+		Node *ahead = head->next;
+		
+		while (ahead != nullptr) {
+		
+			delete cur;
+			
+			cur = ahead;
+			
+			ahead = ahead->next;
+		
+		}
+		
+		delete cur;
+		
+		head = nullptr;
+		
+		return ;
+	
+	}
+
+  
+
+	void Display() {
+	
+		if (head == nullptr) {
+		
+			cout<<"Nothing in list"<<endl;
+			
+			return ;
+		
+		}
+		
+		cout<<"Stack: ";
+		
+		for (Node *cur = head; cur != nullptr; cur = cur->next){
+		
+			cout<<cur->val<<" ";
+		
+		}
+		
+		cout<<endl;
+		
+		return ;
+	
+	}
+	
+	  
+	
+	~LinkedList() {
+	
+		DelList();
+	
+	}
+
+};
+
+  
+
+class Stack {
+
+	public:
+	
+	LinkedList list;
+	
+	  
+	
+	//Auxilary Functions
+	
+	  
+	
+	bool IsEmpty() {
+	
+		return list.head == nullptr && list.tail == nullptr;
+	
+	}
+	
+	  
+	
+	int Size() {
+	
+		int count = 1;
+		
+		for (Node *temp = list.head; temp != nullptr; temp = temp->next, count++) {
+		
+			;
+		
+		}
+		
+		return count;
+	
+	}
+	
+	int Peek() {
+	
+		if (IsEmpty()) {
+		
+			return -999;
+	
+		}
+	
+		int num = list.head->val;
+		
+		return num;
+	
+	}
+	
+	  
+	
+	// Main Functions 
+	
+	void Push(int a) {
+	
+		list.InsertAtHead(a);
+	
+	}
+
+
+
+	int Pop() {
+	
+		int result = list.DeleteAtHead();
+		
+		if (result == -999) {
+		
+			cout<<"Stack Underflow"<<endl;
+		
+		} else {
+		
+			cout<<"Popping Stack"<<endl;
+			
+			cout<<"Popped number: "<<result<<endl;
+		
+		}
+		
+		return result;
+	
+	}
+	
+	  
+	
+	void Display() {
+	
+		list.Display();
+	
+	}
+
+  
+
+};
+
+  
+
+int main() {
+
+	int choice, num;
+	
+	Stack a;
+	
+	do {
+	
+		cout<<"1. Push"<<endl
+		
+		<<"2. Pop"<<endl
+		
+		<<"3. View Stack"<<endl
+		
+		<<"4. Quit"<<endl<<endl
+		
+		<<"Choice: ";
+		
+		cin>>choice;
+		
+		switch(choice){
+		
+			case 1:
+			
+				cout<<"Enter Number: ";
+				
+				cin>>num;
+				
+				a.Push(num);
+			
+				break;
+			
+			case 2:
+			
+				a.Pop();
+				
+				break;
+			
+			case 3:
+			
+				a.Display();
+				
+				break;
+			
+			case 4:
+			
+				break;
+			
+			default:
+			
+				cout<<"Invalid Option"<<endl;
+		
+		}
+	
+	}
+	
+	while (choice != 4);
+
+}
+```
