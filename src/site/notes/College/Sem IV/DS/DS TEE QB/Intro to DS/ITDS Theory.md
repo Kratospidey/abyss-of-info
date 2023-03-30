@@ -28,36 +28,25 @@ graph TD;
     Derived_Type --> Floating_Point;
     Derived_Type --> Double;
     Derived_Type --> Enumerated_Datatypes;
-    Derived_Type --> Void_Type;
+    Void_TypeDerived_Type --> Derived_Type;
 ```
 
 ### Basic Datatype Classification
-```mermaid
-graph TD;
-    subgraph Basic Datatypes
-        Integer
-        Floating_Point
-        Character
-    end
-    subgraph Integer
-        Signed_and_Unsigned
-    end
-    subgraph Signed_and_Unsigned
-	    int
-	    short_int
-	    long_int
-	end
-    subgraph Floating_Point
-        Float
-        Double
-        Long_Double
-    end
-    subgraph Character
-        Char
-        Signed_Char
-        Unsigned_Char
-    end
-```
+- Basic Datatypes (Primary Datatypes)
+	- Integer
+		- Signed & Unsigned
+			- int
+			- short int
+			- long int
+	- Floating Point
+		- float
+		- double
+		- long double
+	- Character
+		- char
+		- signed char
+		- unsigned char
+
 ### Table of Data Types: Their size and Value Range
 | Data Type          | Size (Bytes) | Value Range               |
 | ------------------ | ------------ | ------------------------- |
@@ -89,21 +78,19 @@ graph TD;
 - Enhancing the performance of a program because the main function of the program is to store and retrieve the user’s data as fast as possible.
 
 ## Classification of Data Structures
-```mermaid
-graph TD;
-    Data_Structure-->Primitive_Data_Structure;
-    Data_Structure-->Non_Primitive_Data_Structure;
-    Non_Primitive_Data_Structure-->Linear;
-    Linear-->Static;
-    Linear-->Dynamic;
-    Static-->Array;
-    Dynamic-->Linked_List;
-    Dynamic-->Stack;
-    Dynamic-->Queue;
-    Non_Primitive_Data_Structure-->Non_Linear;
-    Non_Linear-->Tree;
-    Non_Linear-->Graph;
-```
+- Data Structure
+	- Primitive Data Structure
+	- Non-Primitive Data Structure
+		- Linear
+			- Static
+				- Array
+			- Dynamic
+				- Linked List
+				- Stack 
+				- Queue
+		- Non-Linear
+			- Tree
+			- Graph
 ## Operations on Data Structures
 - Traverse
 - Search
@@ -133,22 +120,14 @@ graph TD;
 # Functions, Structures, and Pointers
 ## Function
 ### Function Declaration or Prototype
-\[return_type] function_name( arg-type name-1,... , arg-type name-n);
-
-### Function Definition
-\[return_type] funtion_name( arg-type name-1,..., arg-type name-n)
+- Function Prototype:
+	\[return_type] function_name( arg-type name-1,... , arg-type name-n);
+- Function Definition:
+	[return_type] funtion_name( arg-type name-1,..., arg-type name-n)
 	{
-	 statements;
+		statements;
 	}
-
+### Function Definition
 ### Function Call
-- When a function is called, its stack frame is pushed onto the stack
-- Then, the subroutine (function) instructions are executed
-- Then, the stack frame of the function is popped from the stack
-- Then the program goes back to the main stack using the address stored in the program counter
 ### Function Parameters
-- You can either pass a parameter to a function or not
-- If passing a parameter, there are two ways to do so:
-	- Pass by value
-	- Pass by reference
 
